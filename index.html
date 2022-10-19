@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Nunito+Sans:wght@400;600&family=Roboto:wght@400;500&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Namoz vaqtlari</title>
+</head>
+<body>
+  <main class="main">
+    <section class="top-section">
+      <div class="container">
+        <h1 class="top-section__heading">Namoz vaqtlari</h1>
+
+        <span class="top-section__span"></span>
+
+        <div class="top-section__wrapper">
+          <p class="top-section__desc">Hududni tanlang:</p>
+
+          <select class="top-section__select form-control">
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="middle-section">
+      <div class="container middle-section__container">
+        <p class="middle-section__city">Mintaqa: <span class="middle-section__city-name"></span></p>
+
+        <div class="middle-section__wrapper">
+          <img class="middle-section__wrapper-img" src="./images/calendar-logo.svg" alt="calendar-logo" width="40" height="40">
+
+          <p class="middle-section__wrapper-desc"><span class="day"></span> - <span class="month"></span> <span class="year"></span> - yil</p>
+
+          <p class="middle-section__wrapper-time"><span class="hour"></span> : <span class="minute"></span> : <span class="second"></span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bottom-section">
+      <div class="container">
+        <ul class="bottom-section__list">
+          <li class="bottom-section__item">
+            <h5 class="bottom-section__heading">Tong</h5>
+
+            <img class="bottom-section__img" src="./images/isha-prayer.svg" alt="isha-img" width="240" height="223">
+
+            <p class="bottom-section__time tong">04:58</p>
+          </li>
+
+          <li class="bottom-section__item">
+            <h5 class="bottom-section__heading">Quyosh</h5>
+
+            <img class="bottom-section__img" src="./images/sunrise.svg" alt="isha-img" width="232" height="232">
+
+            <p class="bottom-section__time quyosh">06:05</p>
+          </li>
+
+          <li class="bottom-section__item">
+            <h5 class="bottom-section__heading">Peshin</h5>
+
+            <img class="bottom-section__img" src="./images/sun.svg" alt="isha-img" width="197" height="197">
+
+            <p class="bottom-section__time peshin">12:28</p>
+          </li>
+
+          <li class="bottom-section__item">
+            <h5 class="bottom-section__heading">Asr</h5>
+
+            <img class="bottom-section__img" src="./images/sunrising.svg" alt="isha-img" width="210" height="210">
+
+            <p class="bottom-section__time asr">17:58</p>
+          </li>
+
+          <li class="bottom-section__item">
+            <h5 class="bottom-section__heading">Shom</h5>
+
+            <img class="bottom-section__img" src="./images/sunuping.svg" alt="isha-img" width="229" height="229">
+
+            <p class="bottom-section__time shom">17:58</p>
+          </li>
+
+          <li class="bottom-section__item">
+            <h5 class="bottom-section__heading">Xufton</h5>
+
+            <img class="bottom-section__img" src="./images/moon.svg" alt="isha-img" width="192" height="192">
+
+            <p class="bottom-section__time xufton">19:58</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="./js/regions.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
